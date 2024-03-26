@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, shrink-to-fit=no">
+    <title>Book</title>
+    <link rel="stylesheet" href="../CSS/info.css">
+    <link rel="stylesheet" href="../CSS/common.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  </head>
+  
+  <body>
+    <nav class="nav">
+    <div class="navbar">
+      <button type="button" id="hamMenu" class="ham-menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <div class="menu-items">
+        <button type="button" id="mybutton" class="home"> 
+          <i class="fa-sharp fa-solid fa-house-user" ></i>
+        </button>
+  <button id="userInitials" class="dropdown">
+    <span id="userInitialsContent"></span>
+  </button>
+  <a href="../HTML/info.html" class="info">Information</a>
+  <a href="../HTML/Services.html">Services</a>
+  <a href="../HTML/terminal.html">Terminal</a>
+  <a href="../HTML/contact.html">Contact</a> 
+            <button type="button" id="login" class="log" >Login</button>
+            <button type="button" id="logout" class="logout" >Logout</button> 
+    </div>
+    </div>
+  </nav>
+
+  <body>
+  
+			<img src="../IMAGES/3.jpg" />
+		  
+    
+      <h2>Start your Flying Journey from NAV International Airport</h2>
+      <div class="container">
+       
+        <form id="search-form">
+            <div class="form-group">
+                <label for="destination">Destination:</label>
+                <input type="text" id="destination" name="destination" required>
+            </div>
+            <div class="form-group">
+                <label for="departure_date">Departure Date:</label>
+                <input type="date" id="departure_date" name="departure_date" required>
+            </div>
+            <div class="form-group">
+                <label for="arrival_date">Arrival Date:</label>
+                <input type="date" id="arrival_date" name="arrival_date" required>
+            </div>
+            <button id="btn" type="submit"> Search </button> <br>
+      </div>
+    </form>
+    <br>
+  
+<div id="table-container">
+    <table id="flightsTable">
+      <thead>
+          <tr>
+              <th>Flight</th>
+              <th>Destination</th>
+              <th>Departure Date</th>
+              <th>Arrival Date</th>
+              <th>Departure Time</th>
+              <th>Arrival Time</th>
+              <th>Carrier</th>
+          </tr>
+      </thead>
+      <tbody>
+      </tbody>
+  </table>
+</div>
+  <script src="../JS/info.js" ></script>
+  <script src="../JS/loho.js" ></script>
+    
+ </body>
+ <footer class="social-footer">
+      
+  <nav class="foot">
+    <div class="footc">
+
+   
+    
+      <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com/?hl=en"><i class="fa-brands fa-instagram"></i></i></a>
+     
+      <a href="https://www.pinterest.com/"><i class="fa-brands fa-pinterest-p"></i></a>
+      <a href="https://twitter.com/?lang=en"><i class="fa-brands fa-twitter"></i></a>
+  <p>&copy; 2024 NAV International Airport. All rights reserved.</p>
+    </div>
+  </nav>
+</footer>
+ 
+</html>

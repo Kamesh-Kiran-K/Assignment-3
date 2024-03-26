@@ -1,0 +1,171 @@
+
+img {
+    z-index: -1;
+    height: 720px;
+    width: 100%;
+    padding:none;
+    border: none;
+    position:absolute;
+}
+
+
+h2{
+    margin-left:280px;
+    margin-top: 60px;
+    font-family: 'Alfa Slab One' ,cursive;
+    color:brown;
+}
+
+#table-container{
+    display:none;
+   
+}
+
+
+form {
+	background-color:transparent;
+	padding: 20px;
+	margin: 20px;
+	width: 40%;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-top: 70px;
+    border-radius: 5px;
+    margin-left: 650px ;
+
+}
+
+label {
+   font-family:Arial, Helvetica, sans-serif;
+   color: #26007e;
+   font-weight: 600;
+}
+
+input[type="text"], input[type="date"], select, input[type="number"] {
+	width: 100%;
+	padding: 7px;
+	margin-bottom: 15px;
+	border: 1px solid;
+	border-radius: 5px;
+	box-sizing: border-box;
+    margin-top: 5px;
+    background-color: transparent;
+
+    
+}
+.container button{
+    background-color:rgb(61, 119, 172);
+	color: #020202;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+    margin-top: 20px;
+    margin-left:400px;
+}
+
+.container button:hover {
+	background-color: #1f5f86;
+}
+
+.container{
+
+    z-index: 1;
+}
+
+
+
+ table{
+    z-index: 1;
+    width:  800px;
+    margin-top: 0px;
+    margin-left: 220px;
+ 
+ }
+
+ 
+ table th{
+    padding: 10px 0;
+    background-color: transparent;
+    border:  none;
+    text-decoration:dotted;
+  
+ } 
+  
+ table td{
+    padding: 10px;
+    border:  none;
+    text-align: center;
+    background-color: transparent;
+    border: 2px solid black;
+ }
+  
+ table img{
+    width:  70%;
+ }
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    h2 {
+        margin: 100px 0 20px 20px;
+    }
+
+    form {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+
+    .container button{
+        margin-left: 300px;
+    }
+
+  
+
+    table {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+
+    footer {
+        margin-top: auto;
+        padding: 10px;
+        text-align: center;
+        position: relative;
+        background-color: #333;
+        color: #fff;
+    }
+
+    footer p {
+        font-size: 14px;
+        margin: 0;
+    }
+}
+
+    @media screen and (max-width: 480px) {
+
+        h2 {
+            margin-top: 5px;
+        }
+
+        form {
+            width: 90%;
+            margin: 0 auto;
+            margin-top: 5px;
+        }
+
+        table {
+            width: 100%;
+            margin: 0 auto;
+            margin-top: 30px;
+        }
+
+        footer {
+            padding: 10px 5px;
+        }
+    }
